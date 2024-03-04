@@ -4,7 +4,7 @@ As a software engineer striving to learn the basics Rust programming, I develope
 
 ## Software Demo Video
 
-[Watch the Software Demo Video](http://youtube.link.goes.here)
+[Factorial Calculator](https://youtu.be/xp1UtZqOFik)
 
 The main components of this code is below.
 
@@ -25,8 +25,6 @@ _main function_: This is the entry point of the program. It creates a new Factor
 3. Request the factorial of 3. The calculator checks the cache and finds that 3! has already been computed as 3 _ 2 _ 1 = 6. It returns the cached value.
 4. Request the factorial of 8. The calculator computes it as 8! = 8 _ 7 _ 6 _ 5 _ 4 _ 3 _ 2 \* 1 = 40320 and stores the result in the cache.
 5. The main advantage of this implementation is that it avoids redundant computations. If the factorial of a given number has already been calculated, the calculator simply returns the cached value, resulting in faster computations.
-
-[Software Demo Video](http://youtube.link.goes.here)
 
 # Development Environment
 
